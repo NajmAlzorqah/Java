@@ -12,7 +12,7 @@ public class Main {
 //        var hum = new Human();
 
         int fact = 1;
-        for (int i = 1; i <= 5; fact *= i++) ;
+        for (int i = 1; i <= 4; fact *= i++) ;
 
         System.out.println("hiiii");
         System.out.println("Factorial: " + fact);
