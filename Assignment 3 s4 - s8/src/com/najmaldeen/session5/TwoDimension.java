@@ -27,13 +27,30 @@ public class TwoDimension {
      *
      * @return void
      */
-    public void displayMarks() {
+    public void displayMarks(){
         System.out.println("Marks are:");
-// Display the marks
-        System.out.println("Roll no.1:" + marks[0][0]+ "," + marks[0][1]);
-        System.out.println("Roll no.2:" + marks[1][0]+ "," + marks[1][1]);
-        System.out.println("Roll no.3:" + marks[2][0]+ "," + marks[2][1]);
-        System.out.println("Roll no.4:" + marks[3][0]+ "," + marks[3][1]);
+// Display the marks using nested for loop
+// outer loop
+        for (int row = 0; row < marks.length; row++) {
+            System.out.println("Roll no." + (row+1));
+            // inner loop
+            for (int col = 0; col < marks[row].length; col++) {
+                System.out.println(marks[row][col]);
+            }
+        }
+    }
+    public void totalMarks() {
+        System.out.println("Total Marks are:");
+// Display the marks using for loop and enhanced for loop
+        for (int row = 0; row < marks.length; row++) {
+            System.out.println("Roll no." + (row+1));
+            int sum = 0;
+// enhanced for loop
+            for(int value:marks[row]) {
+                sum = sum + value;
+            }
+            System.out.println(sum);
+        }
     }
     /**
      * @param args the command line arguments
