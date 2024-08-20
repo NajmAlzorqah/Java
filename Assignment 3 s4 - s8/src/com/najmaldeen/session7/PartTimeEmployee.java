@@ -31,7 +31,7 @@ public void displayDetails(){
 /**
  * Modified EmployeeDetails.java
  */
-public class EmployeeDetails {
+class EmployeeDetails {
     /**
      * @param args the command line arguments
      */
