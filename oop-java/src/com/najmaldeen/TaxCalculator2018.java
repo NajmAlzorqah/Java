@@ -1,6 +1,6 @@
 package com.najmaldeen;
 
-public class TaxCalculator2018 implements TaxCalculator {
+public class TaxCalculator2018 extends Object implements TaxCalculator {
     private double taxableIncome;
 
     public TaxCalculator2018(double taxableIncome) {
@@ -8,7 +8,7 @@ public class TaxCalculator2018 implements TaxCalculator {
     }
 
     @Override
-    public double calculateTax (){
-        return taxableIncome * 0.4;
+    public double calculateTax(){
+        return taxableIncome * 0.3;
     }
 }
