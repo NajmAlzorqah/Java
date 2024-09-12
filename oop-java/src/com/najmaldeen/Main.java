@@ -8,5 +8,7 @@ public class Main {
         
         var calculator = new TaxCalculator2018(100_000);
         var report = new TaxReport(calculator);
+
+        
     }
 }
