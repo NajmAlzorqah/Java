@@ -1,6 +1,6 @@
 package com.najmaldeen;
 
-public class TaxCalculator2018 extends Object implements TaxCalculator {
+public class TaxCalculator2018  implements TaxCalculator {
     private double taxableIncome;
 
     public TaxCalculator2018(double taxableIncome) {

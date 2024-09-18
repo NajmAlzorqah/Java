@@ -4,7 +4,7 @@ import java.sql.*;
 
 public class Main {
     public static void main(String[] args) {
-        String jdbcUrl = "jdbc:sqlserver://NAJM:1433;databaseName=Zorqah;integratedSecurity=true;encrypt=false;trustServerCertificate=true;";
+        String jdbcUrl = "jdbc:sqlserver://NAJM:1433;databaseName=Hamod;integratedSecurity=true;encrypt=false;trustServerCertificate=true;";
 
         try {
             Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
